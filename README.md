@@ -8,7 +8,7 @@
 [![Issues][issues-shield]][issues-url]
 
 <a href="https://github.com/Irregular/Vibely">
-  <img width="300px" src="https://imgur.com/a/3YEV7ZH" alt="Logo" />
+  <img width="300px" src="https://i.imgur.com/ZpwdBYf.png" alt="Logo" />
 </a>
 
 ## Vibely
