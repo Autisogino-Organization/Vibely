@@ -1,3 +1,8 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
 # 🎉 Vibely - Web Chat App  
 
 Bienvenidos al proyecto **Vibely** — nuestro chat web rápido y dinámico. Vamos a construir algo genial juntos 💪.  
