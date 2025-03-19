@@ -106,6 +106,6 @@ Vibely es una plataforma de chat en tiempo real diseñada para conectar personas
 [forks-shield]: https://img.shields.io/github/forks/Autisogino-Organization/Vibely.svg?style=for-the-badge
 [forks-url]: https://github.com/Autisogino-Organization/Vibely/network/members
 [stars-shield]: https://img.shields.io/github/stars/Autisogino-Organization/Vibely.svg?style=for-the-badge
-[stars-url]: [https://github.com/Autisogino-Organization/Vibely/stargazers](https://img.shields.io/github/stars/Autisogino-Organization/Vibely)
+[stars-url]: https://github.com/Autisogino-Organization/Vibely/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Autisogino-Organization/Vibely.svg?style=for-the-badge
 [issues-url]: https://github.com/Autisogino-Organization/Vibely/issues
