@@ -1,7 +1,7 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+![GitHub contributors](https://img.shields.io/github/contributors/Autisogino-Organization/Vibely)
+![GitHub forks](https://img.shields.io/github/forks/Autisogino-Organization/Vibely?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Autisogino-Organization/Vibely?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Autisogino-Organization/Vibely)
 
 # 🎉 Vibely - Web Chat App  
 
