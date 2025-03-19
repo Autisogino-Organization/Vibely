@@ -19,7 +19,7 @@ Bienvenidos al proyecto **Vibely** — nuestro chat web rápido y dinámico. Vam
 
 1. **Clona el repositorio:**  
    ```bash
-   git clone https://github.com/tuusuario/vibely.git
+   git clone https://github.com/Autisogino-Organization/vibely.git
    cd vibely
    ```
 
