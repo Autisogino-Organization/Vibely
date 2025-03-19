@@ -39,11 +39,6 @@ Vibely es una plataforma de chat en tiempo real diseñada para conectar personas
 - **Salas de chat personalizables**: Crea tus propias salas y personalízalas a tu gusto.
 - **Seguridad integrada**: Chats encriptados para proteger tus conversaciones.
 
-### Capturas de pantalla
-
-![Captura de pantalla en ordenador](https://cdn.example.com/vibely-desktop.png)
-![Captura de pantalla en móvil](https://cdn.example.com/vibely-mobile.png)
-
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
 ## Para empezar
