@@ -98,6 +98,7 @@ Vibely es una plataforma de chat en tiempo real diseñada para conectar personas
 [![Astro](https://img.shields.io/badge/Astro-ff5f5f?style=for-the-badge&logo=astro&logoColor=fff)](https://astro.build/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009485?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Websocket](https://img.shields.io/badge/WEBSOCKET-009485?style=for-the-badge&logo=websocket&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
 [![Redis](https://img.shields.io/badge/REDIS-009485?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
