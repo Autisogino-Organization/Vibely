@@ -1,8 +1,10 @@
 import { useState } from "react";
 import Header from "../components/header";
+import NavBar from "../components/navbar";
 import "../styles/global.css";
 import eyeOpen from "../assets/eye-open.svg";
 import eyeClose from "../assets/eye-close.svg";
+import { IoMenu } from "react-icons/io5";
 
 function Login() {
   const [passwordVisible, setPasswordVisible] = useState(false);
@@ -12,10 +14,11 @@ function Login() {
   };
 
   return (
-    <div className="flex flex-col gap-20 text-white min-h-screen relative">
+    <div className="flex flex-col text-white min-h-screen relative">
+      <NavBar />
       <div className="fixed top-0 left-0 w-full h-full bg-[url('/background.jpg')] bg-cover bg-center mask-fade-bottom -z-10"></div>
-      <Header />
-      <div className="flex flex-col items-center text-start gap-5 p-5 relative justify-center align-middle">
+      <Header/>
+      <div className="flex flex-col items-center text-start gap-5 box-border relative justify-center align-middle scale-90 mt-10">
         <h1 className="">Bienvenido</h1>
         <h1 className="text-5xl text-nowrap md:text-6xl">
           Inicia sesion<span className="text-blue-700 font-semibold">.</span>

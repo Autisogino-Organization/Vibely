@@ -1,11 +1,13 @@
 import Header from "../components/header";
 import Footer from "../components/footer";
+import NavBar from "../components/navbar";
 import "../styles/global.css";
 import message from "../assets/message.svg";
 
 function Landing() {
   return (
     <div className="flex flex-col justify-between min-h-screen">
+      <NavBar />
       <div className="fixed w-full h-full bg-[url('/background.jpg')] bg-cover bg-center mask-fade-bottom -z-10"></div>
       <Header />
       <div className="flex flex-col items-center md:flex-row gap-10 md:gap-[70px] text-white p-10 mt-[35px] md:w-full">

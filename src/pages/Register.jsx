@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Header from "../components/header";
+import NavBar from "../components/navbar";
 import "../styles/global.css";
 import eyeOpen from "../assets/eye-open.svg";
 import eyeClose from "../assets/eye-close.svg";
@@ -13,6 +14,7 @@ function Register() {
 
   return (
     <div className="flex flex-col gap-0 text-white min-h-screen relative">
+      <NavBar />
       <div className="fixed top-0 left-0 w-full h-full bg-[url('/background.jpg')] bg-cover bg-center mask-fade-bottom -z-10"></div>
       <Header />
       <div className="flex flex-col items-center text-start gap-5 p-5 relative justify-center align-middle">
