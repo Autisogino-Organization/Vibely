@@ -24,7 +24,7 @@ function Login() {
           <span className="col-span-2 text-center text-blue-900 font-semibold p-1">
             Correo o contrasenha incorrecta.
           </span>
-          <div className="bg-blue-500 rounded-xl p-2 outline-none focus:outline-blue-500 shadow-xl">
+          <div className="bg-[#7eb0e9] border-[#48535f1e] border-2 rounded-xl p-2 outline-none focus:outline-blue-500 shadow-xl">
             <span className="text-blue-900 text-[12px] font-semibold text-center">
               Correo electronico
             </span>
@@ -34,7 +34,7 @@ function Login() {
               placeholder="example@example.com"
             />
           </div>
-          <div className="relative grid grid-cols-[2fr_2fr_1fr] grid-rows-2 bg-blue-500 rounded-xl p-2 outline-none focus:outline-blue-500 shadow-xl">
+          <div className="relative grid grid-cols-[2fr_2fr_1fr] grid-rows-2 bg-[#7eb0e9] border-[#48535f1e] border-2  rounded-xl p-2 outline-none focus:outline-blue-500 shadow-xl">
             <span className="text-blue-900 text-[12px] font-semibold col-span-2 row-start-1 self-center">
               Contrasenha
             </span>
@@ -45,14 +45,14 @@ function Login() {
             />
             <img
               alt="eye"
-              className="w-7 cursor-pointer col-start-3 col-span-2 row-span-2 self-center place-self-end"
+              className="w-7 cursor-pointer col-start-3 col-span-2 row-span-2 self-center place-self-end hover:scale-110 transition"
               onClick={togglePasswordVisibility}
               src={passwordVisible ? eyeOpen : eyeClose}
             ></img>
           </div>
 
           <button
-            className="bg-blue-600 rounded-xl p-2 col-span-2 transition-all duration-200 transform hover:bg-blue-400 cursor-pointer shadow-xl"
+            className="bg-[#407cc2] border-[#48535f1e] border-2  rounded-xl p-2 col-span-2 transition-all duration-200 transform hover:bg-blue-400 cursor-pointer shadow-xl"
             type="submit"
           >
             Iniciar sesion
@@ -60,7 +60,7 @@ function Login() {
         </form>
         <h1>
           No tienes una cuenta?{" "}
-          <a className="font-semibold underline text-blue-700" href="/register">
+          <a className="font-semibold underline text-[#6aa3e4] hover:text-[#82bcff] transition" href="/register">
             Registrate
           </a>
         </h1>
