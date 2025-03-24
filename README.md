@@ -11,14 +11,13 @@
 
 Noctis es una plataforma de chat en tiempo real diseñada para conectar personas de forma rápida, segura y divertida.
 
-[Reportar error](https://github.com/Autisogino-Organization/Vibely/issues) · [Sugerir algo](https://github.com/Autisogino-Organization/Vibely/issues)
+[Reportar error](https://github.com/Autisogino-Organization/Noctis/issues) · [Sugerir algo](https://github.com/Autisogino-Organization/Noctis/issues)
 
 </div>
 
 <details>
 <summary>Tabla de contenidos</summary>
 
-- [Vibely](#vibely)
 - [Características principales](#características-principales)
 - [Capturas de pantalla](#capturas-de-pantalla)
 - [Para empezar](#para-empezar)
@@ -58,7 +57,7 @@ Noctis es una plataforma de chat en tiempo real diseñada para conectar personas
 1. Clona el repositorio
 
    ```sh
-   git clone https://github.com/Autisogino-Organization/Vibely.git
+   git clone https://github.com/Autisogino-Organization/Noctis.git
    ```
 
 2. Instala las dependencias
@@ -77,7 +76,7 @@ Noctis es una plataforma de chat en tiempo real diseñada para conectar personas
 
 ## Contribuir al proyecto
 
-¡Las contribuciones son más que bienvenidas! Si tienes ideas o mejoras, no dudes en abrir un [_issue_](https://github.com/Autisogino-Organization/Vibely/issues) o hacer un [_pull request_](https://github.com/Autisogino-Organization/Vibely/pulls).
+¡Las contribuciones son más que bienvenidas! Si tienes ideas o mejoras, no dudes en abrir un [_issue_](https://github.com/Autisogino-Organization/Vibely/issues) o hacer un [_pull request_](https://github.com/Autisogino-Organization/Noctis/pulls).
 
 ### Pasos para contribuir
 
