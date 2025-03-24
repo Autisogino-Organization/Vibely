@@ -3,7 +3,7 @@ import "../styles/global.css";
 function Header() {
   return (
     <>
-      <header className="w-screen flex flex-col items-center text-center justify-start pl-15 pt-10 pr-15 text-white md:flex-row gap-5 md:items-center">
+      <header className="hidden w-screen md:flex flex-col items-center text-center justify-start pl-15 pt-10 pr-15 text-white md:flex-row gap-5 md:items-center">
         <div className="flex items-center justify-center md:mr-20">
           <h1 className="text-2xl text-star-white font-medium text-center">
             Noctis
