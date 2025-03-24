@@ -4,6 +4,10 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  preview: 'noctis-l37u.onrender.com',
   plugins: [react(), tailwindcss()],
+  preview: {
+    host: '0.0.0.0',
+    port: process.env.PORT || 4173,
+    allowedHosts: ['noctis-l37u.onrender.com']
+  }
 })
