@@ -76,15 +76,15 @@ Noctis es una plataforma de chat en tiempo real diseñada para conectar personas
 
 ## Contribuir al proyecto
 
-¡Las contribuciones son más que bienvenidas! Si tienes ideas o mejoras, no dudes en abrir un [_issue_](https://github.com/Autisogino-Organization/Vibely/issues) o hacer un [_pull request_](https://github.com/Autisogino-Organization/Noctis/pulls).
+¡Las contribuciones son más que bienvenidas! Si tienes ideas o mejoras, no dudes en abrir un [_issue_](https://github.com/Autisogino-Organization/Noctis/issues) o hacer un [_pull request_](https://github.com/Autisogino-Organization/Noctis/pulls).
 
 ### Pasos para contribuir
 
-1. Haz un [_fork_](https://github.com/Autisogino-Organization/Vibely/fork)
+1. Haz un [_fork_](https://github.com/Autisogino-Organization/Noctis/fork)
 2. Crea una nueva rama (`git checkout -b feature/nueva-funcion`)
 3. Realiza tus cambios y haz _commit_ (`git commit -m 'Add: nueva función'`)
 4. Sube tus cambios (`git push origin feature/nueva-funcion`)
-5. Abre una [_pull request_](https://github.com/Autisogino-Organization/Vibely/pulls)
+5. Abre una [_pull request_](https://github.com/Autisogino-Organization/Noctis/pulls)
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
@@ -97,11 +97,11 @@ Noctis es una plataforma de chat en tiempo real diseñada para conectar personas
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
-[contributors-shield]: https://img.shields.io/github/contributors/Autisogino-Organization/Vibely.svg?style=for-the-badge
-[contributors-url]: https://github.com/Autisogino-Organization/Vibely/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Autisogino-Organization/Vibely.svg?style=for-the-badge
-[forks-url]: https://github.com/Autisogino-Organization/Vibely/network/members
-[stars-shield]: https://img.shields.io/github/stars/Autisogino-Organization/Vibely.svg?style=for-the-badge
-[stars-url]: https://github.com/Autisogino-Organization/Vibely/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Autisogino-Organization/Vibely.svg?style=for-the-badge
-[issues-url]: https://github.com/Autisogino-Organization/Vibely/issues
+[contributors-shield]: https://img.shields.io/github/contributors/Autisogino-Organization/Noctis.svg?style=for-the-badge
+[contributors-url]: https://github.com/Autisogino-Organization/Noctis/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Autisogino-Organization/Noctis.svg?style=for-the-badge
+[forks-url]: https://github.com/Autisogino-Organization/Noctis/network/members
+[stars-shield]: https://img.shields.io/github/stars/Autisogino-Organization/Noctis.svg?style=for-the-badge
+[stars-url]: https://github.com/Autisogino-Organization/Noctis/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Autisogino-Organization/Noctis.svg?style=for-the-badge
+[issues-url]: https://github.com/Autisogino-Organization/Noctis/issues
