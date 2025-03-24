@@ -7,13 +7,9 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 
-<a href="https://github.com/Autisogino-Organization/Vibely">
-  <img width="300px" src="https://i.imgur.com/QuZpGJM.png" alt="Logo" />
-</a>
+## Noctis
 
-## Vibely
-
-Vibely es una plataforma de chat en tiempo real diseñada para conectar personas de forma rápida, segura y divertida.
+Noctis es una plataforma de chat en tiempo real diseñada para conectar personas de forma rápida, segura y divertida.
 
 [Reportar error](https://github.com/Autisogino-Organization/Vibely/issues) · [Sugerir algo](https://github.com/Autisogino-Organization/Vibely/issues)
 
@@ -95,7 +91,6 @@ Vibely es una plataforma de chat en tiempo real diseñada para conectar personas
 
 ## 🛠️ Stack
 
-[![Astro](https://img.shields.io/badge/Astro-ff5f5f?style=for-the-badge&logo=astro&logoColor=fff)](https://astro.build/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-009485?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Websocket](https://img.shields.io/badge/WEBSOCKET-009485?style=for-the-badge&logo=websocket&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
