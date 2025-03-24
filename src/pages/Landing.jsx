@@ -1,13 +1,25 @@
 import Header from "../components/header";
+import Footer from "../components/footer";
 import "../styles/global.css";
+import message from "../assets/message.svg";
 
 function Landing() {
   return (
-    <>
-      <div className="flex absolute w-full h-full bg-[url('/background.jpg')] bg-cover bg-center mask-fade-bottom"></div>
+    <div className="flex flex-col justify-between min-h-screen">
+      <div className="fixed w-full h-full bg-[url('/background.jpg')] bg-cover bg-center mask-fade-bottom -z-10"></div>
       <Header />
-      <div className="flex absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Landing</div>
-    </>
+      <div className="flex flex-col items-center md:flex-row gap-10 md:gap-[70px] text-white p-10 mt-[35px] md:w-full">
+        <span className="text-6xl break-words w-full md:w-[60%] order-2 md:order-1 text-center">
+          Un chat para divertirte en grupo.
+        </span>
+        <img
+          alt="message-logo"
+          className="w-50 order-1 md:order-2"
+          src={message}
+        ></img>
+      </div>
+      <Footer />
+    </div>
   );
 }
 

@@ -10,19 +10,31 @@ function Header() {
           </h1>
         </div>
 
-        <button className="md:mr-5 text-star-white font-medium cursor-pointer p-2 rounded transition-all duration-200 transform hover:scale-110 hover:bg-blue-400 hover:shadow-lg">
+        <a
+          href="/"
+          className="md:mr-5 text-star-white font-medium cursor-pointer p-2 rounded transition-all duration-200 transform hover:scale-110 hover:bg-blue-400 hover:shadow-lg"
+        >
           Home
-        </button>
-        <button className="md:mr-auto text-star-white font-medium cursor-pointer p-2 rounded transition-all duration-200 transform hover:scale-110 hover:bg-blue-400 hover:shadow-lg">
+        </a>
+        <a
+          href="/about"
+          className="md:mr-auto text-star-white font-medium cursor-pointer p-2 rounded transition-all duration-200 transform hover:scale-110 hover:bg-blue-400 hover:shadow-lg"
+        >
           About
-        </button>
+        </a>
 
-        <button className="text-star-white font-medium bg-[] p-2 rounded-xl w-25 text-center cursor-pointer transition-all duration-200 transform hover:scale-110 hover:bg-blue-400 hover:shadow-lg">
+        <a
+          href="/register"
+          className="text-star-white font-medium bg-[] p-2 rounded-xl w-25 text-center cursor-pointer transition-all duration-200 transform hover:scale-110 hover:bg-blue-400 hover:shadow-lg"
+        >
           Sign up
-        </button>
-        <button className="text-star-white font-medium bg-blue-600 p-2 rounded-xl w-25 text-center cursor-pointer transition-all duration-200 transform hover:scale-110 hover:bg-blue-500 hover:shadow-lg">
+        </a>
+        <a
+          href="/login"
+          className="text-star-white font-medium bg-blue-600 p-2 rounded-xl w-25 text-center cursor-pointer transition-all duration-200 transform hover:scale-110 hover:bg-blue-500 hover:shadow-lg"
+        >
           Sign in
-        </button>
+        </a>
       </header>
     </>
   );

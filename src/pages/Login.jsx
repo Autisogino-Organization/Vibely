@@ -1,15 +1,15 @@
 import { useState } from "react";
 import Header from "../components/header";
 import "../styles/global.css";
-import eyeOpen from '../assets/eye-open.svg'
-import eyeClose from '../assets/eye-close.svg'
+import eyeOpen from "../assets/eye-open.svg";
+import eyeClose from "../assets/eye-close.svg";
 
 function Login() {
   const [passwordVisible, setPasswordVisible] = useState(false);
 
   const togglePasswordVisibility = () => {
     setPasswordVisible(!passwordVisible);
-  }
+  };
 
   return (
     <div className="flex flex-col gap-20 text-white min-h-screen relative">
@@ -24,26 +24,35 @@ function Login() {
           <span className="col-span-2 text-center text-blue-900 font-semibold p-1">
             Correo o contrasenha incorrecta.
           </span>
-          <div className="bg-blue-500 rounded-xl p-2 outline-none focus:outline-blue-500">
-            <span className="text-blue-900 text-[12px] font-semibold text-center">Correo electronico</span>
+          <div className="bg-blue-500 rounded-xl p-2 outline-none focus:outline-blue-500 shadow-xl">
+            <span className="text-blue-900 text-[12px] font-semibold text-center">
+              Correo electronico
+            </span>
             <input
               className="outline-none focus:outline-blue-500 w-full"
               type="email"
               placeholder="example@example.com"
             />
           </div>
-          <div className="relative grid grid-cols-[2fr_2fr_1fr] grid-rows-2 bg-blue-500 rounded-xl p-2 outline-none focus:outline-blue-500">
-            <span className="text-blue-900 text-[12px] font-semibold col-span-2 row-start-1 self-center">Contrasenha</span>
+          <div className="relative grid grid-cols-[2fr_2fr_1fr] grid-rows-2 bg-blue-500 rounded-xl p-2 outline-none focus:outline-blue-500 shadow-xl">
+            <span className="text-blue-900 text-[12px] font-semibold col-span-2 row-start-1 self-center">
+              Contrasenha
+            </span>
             <input
               className="outline-none focus:outline-blue-500 w-[90%] col-span-2 row-start-2"
               type={passwordVisible ? "text" : "password"}
               placeholder="!example123"
             />
-            <img alt="eye" className="w-7 cursor-pointer col-start-3 col-span-2 row-span-2 self-center place-self-end" onClick={togglePasswordVisibility} src={passwordVisible ? eyeOpen : eyeClose}></img>
+            <img
+              alt="eye"
+              className="w-7 cursor-pointer col-start-3 col-span-2 row-span-2 self-center place-self-end"
+              onClick={togglePasswordVisibility}
+              src={passwordVisible ? eyeOpen : eyeClose}
+            ></img>
           </div>
 
           <button
-            className="bg-blue-600 rounded-xl p-2 col-span-2 transition-all duration-200 transform hover:bg-blue-400 hover:shadow-lg cursor-pointer"
+            className="bg-blue-600 rounded-xl p-2 col-span-2 transition-all duration-200 transform hover:bg-blue-400 cursor-pointer shadow-xl"
             type="submit"
           >
             Iniciar sesion
