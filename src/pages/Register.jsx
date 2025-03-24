@@ -17,7 +17,7 @@ function Register() {
       <NavBar />
       <div className="fixed top-0 left-0 w-full h-full bg-[url('/background.jpg')] bg-cover bg-center mask-fade-bottom -z-10"></div>
       <Header />
-      <div className="flex flex-col items-center text-start gap-5 p-5 relative justify-center align-middle">
+      <div className="flex flex-col items-center text-start gap-5 relative justify-center align-middle scale-90">
         <h1 className="text-5xl text-nowrap md:text-6xl">
           Registrate<span className="text-blue-700 font-semibold">.</span>
         </h1>
@@ -25,7 +25,7 @@ function Register() {
           <span className="col-span-2 text-center text-blue-900 font-semibold p-1">
             Correo o contrasenha incorrecta.
           </span>
-          <div className="bg-blue-500 rounded-xl p-2 outline-none focus:outline-blue-500 col-span-2 shadow-xl">
+          <div className="bg-[#7eb0e9] border-[#48535f1e] border-2  rounded-xl p-2 outline-none focus:outline-blue-500 col-span-2 shadow-xl">
             <span className="text-blue-900 text-[12px] font-semibold text-center">
               Usuario *
             </span>
@@ -35,7 +35,7 @@ function Register() {
               placeholder="example"
             />
           </div>
-          <div className="bg-blue-500 rounded-xl p-2 outline-none focus:outline-blue-500 shadow-xl">
+          <div className="bg-[#7eb0e9] border-[#48535f1e] border-2 rounded-xl p-2 outline-none focus:outline-blue-500 shadow-xl">
             <span className="text-blue-900 text-[12px] font-semibold text-center">
               Correo electronico *
             </span>
@@ -45,7 +45,7 @@ function Register() {
               placeholder="example@example.com"
             />
           </div>
-          <div className="relative grid grid-cols-[2fr_2fr_1fr] grid-rows-2 bg-blue-500 rounded-xl p-2 outline-none focus:outline-blue-500 shadow-xl">
+          <div className="relative grid grid-cols-[2fr_2fr_1fr] grid-rows-2 bg-[#7eb0e9] border-[#48535f1e] border-2  rounded-xl p-2 outline-none focus:outline-blue-500 shadow-xl">
             <span className="text-blue-900 text-[12px] font-semibold col-span-2 row-start-1 self-center">
               Contrasenha *
             </span>
@@ -61,12 +61,12 @@ function Register() {
               src={passwordVisible ? eyeOpen : eyeClose}
             ></img>
           </div>
-          <div className="grid grid-cols-3 gap-2 grid-rows-[15px] place-items-center place-content-center col-span-2 bg-blue-500 rounded-xl p-2 shadow-xl">
+          <div className="grid grid-cols-3 gap-2 grid-rows-[15px] place-items-center place-content-center col-span-2 bg-[#7eb0e9] border-[#48535f1e] border-2  rounded-xl p-2 shadow-xl">
             <span className="text-blue-900 text-[12px] font-semibold text-start col-span-3 place-self-start">
               Fecha de nacimiento *
             </span>
 
-            <div className="flex flex-row bg-blue-600 p-2 box-border gap-2 w-full justify-center align-middle rounded">
+            <div className="flex flex-row bg-[#407cc2] border-[#48535f1e] border-2  p-2 box-border gap-2 w-full justify-center align-middle rounded">
               <span>Dia</span>
               <input
                 className="outline-none focus:outline-blue-500 w-5"
@@ -74,7 +74,7 @@ function Register() {
                 placeholder="00"
               />
             </div>
-            <div className="flex flex-row bg-blue-600 p-2 box-border gap-2 w-full justify-center align-middle rounded">
+            <div className="flex flex-row bg-[#407cc2] border-[#48535f1e] border-2  p-2 box-border gap-2 w-full justify-center align-middle rounded">
               <span>Mes</span>
               <input
                 className="outline-none focus:outline-blue-500 w-5"
@@ -82,7 +82,7 @@ function Register() {
                 placeholder="00"
               />
             </div>
-            <div className="flex flex-row bg-blue-600 p-2 box-border gap-2 w-full justify-center align-middle rounded">
+            <div className="flex flex-row bg-[#407cc2] border-[#48535f1e] border-2  p-2 box-border gap-2 w-full justify-center align-middle rounded">
               <span>Anho</span>
               <input
                 className="outline-none focus:outline-blue-500 w-10"
@@ -93,7 +93,7 @@ function Register() {
           </div>
 
           <button
-            className="bg-blue-600 rounded-xl p-2 col-span-2 transition-all duration-200 transform hover:bg-blue-400 shadow-xl cursor-pointer"
+            className="bg-[#407cc2] border-[#48535f1e] border-2 rounded-xl p-2 col-span-2 transition-all duration-200 transform hover:bg-blue-400 shadow-xl cursor-pointer"
             type="submit"
           >
             Registrarse

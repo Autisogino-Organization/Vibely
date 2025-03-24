@@ -55,7 +55,7 @@ function Login() {
           </div>
 
           <button
-            className="bg-[#407cc2] border-[#48535f1e] border-2  rounded-xl p-2 col-span-2 transition-all duration-200 transform hover:bg-blue-400 cursor-pointer shadow-xl"
+            className="bg-[#407cc2] border-[#48535f1e] border-2 rounded-xl p-2 col-span-2 transition-all duration-200 transform hover:bg-blue-400 cursor-pointer shadow-xl"
             type="submit"
           >
             Iniciar sesion
