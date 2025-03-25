@@ -2,23 +2,17 @@
 @import "tailwindcss";
 @plugin "@midudev/tailwind-animations";
 
-@theme {
-  --color-moon-blue: #579bff;
-}
-
-@custom-variant dark (&:where(.dark, .dark *));
-
 body {
   min-height: 100vh;
   position: relative;
   margin: 0;
-  background-color: var(--color-moon-blue);
+  background-color: #0f0f0f;
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
 
 @utility mask-fade-bottom {
-  mask-image: linear-gradient(to left, rgb(0, 0, 0) 0%, rgba(255,255,255,0) 70%);
+  mask-image: linear-gradient(to left, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0) 70%);
 }
 
 @utility mask-fade-top {
