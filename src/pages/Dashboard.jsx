@@ -27,7 +27,7 @@ const members = [
 
 function Dashboard() {
   return (
-    <div className="min-h-screen h-screen grid grid-cols-[70px_2fr_8fr_2fr] grid-rows-[35px_8fr_2fr_1.5fr]">
+    <div className="min-h-screen h-screen grid grid-cols-[70px_2fr_8fr_3fr] xl:grid-cols-[70px_2fr_8fr_2fr] 2xl:grid-cols-[70px_2fr_8fr_1fr] grid-rows-[35px_8fr_2fr_1fr] 2xl:grid-rows-[35px_8fr_2fr_0.5fr]">
       <div className="bg-[#21344a] row-start-1 row-end-5 flex flex-col items-center pt-2 gap-2" id="servers">
         <ServerCircle pfp={serverpfp} name="Autisofino" />
         <ServerCircle pfp={serverpfp} name="Autisofino" />
@@ -61,12 +61,93 @@ function Dashboard() {
         style={{ height: "100%" }}
       >
         <div
-          className="flex-1 overflow-y-auto w-full [&::-webkit-scrollbar]:w-2
+          className="flex-1 h-full overflow-y-auto w-full [&::-webkit-scrollbar]:w-2
   [&::-webkit-scrollbar-track]:bg-[#4f739d]
   [&::-webkit-scrollbar-thumb]:bg-blue-300"
         >
-          <div className="flex flex-col gap-2 p-5">
+          <div className="flex flex-col justify-end gap-2 p-5">
             <Message
+              pfp={gacc}
+              message="Sep, entonces yo q podría hacer xD"
+              author="gacc_15"
+            />
+            <Message
+              pfp={safe}
+              message="elige register o login"
+              author="Safe"
+            />
+            <Message
+              pfp={gacc}
+              message="Iré por lo difícil Register"
+              author="gacc_15"
+            />
+            <Message
+              pfp={safe}
+              message="vale pues haz esa parte y yo hago el login"
+              author="Safe"
+            />
+            <Message
+              pfp={keven}
+              message="Se viene lo chido"
+              author="! IrregularDev"
+            />
+            <Message
+              pfp={gacc}
+              message="Una pregunta, yo haría la db?"
+              author="gacc_15"
+            />
+            <Message
+              pfp={safe}
+              message="Pues depende, yo tambien quiero aprender a hacerla, entonces supongo que podriamos dividirnos eso si, habria que tener muy buena organización"
+              author="Safe"
+            />
+            <Message
+              pfp={gacc}
+              message="Dale Iré haciendo lo principal primero"
+              author="gacc_15"
+            />
+            <Message
+              pfp={gacc}
+              message="Sep, entonces yo q podría hacer xD"
+              author="gacc_15"
+            />
+            <Message
+              pfp={safe}
+              message="elige register o login"
+              author="Safe"
+            />
+            <Message
+              pfp={gacc}
+              message="Iré por lo difícil Register"
+              author="gacc_15"
+            />
+            <Message
+              pfp={safe}
+              message="vale pues haz esa parte y yo hago el login"
+              author="Safe"
+            />
+            <Message
+              pfp={keven}
+              message="Se viene lo chido"
+              author="! IrregularDev"
+            />
+            <Message
+              pfp={gacc}
+              message="Una pregunta, yo haría la db?"
+              author="gacc_15"
+            />
+            <Message
+              pfp={safe}
+              message="Pues depende, yo tambien quiero aprender a hacerla, entonces supongo que podriamos dividirnos eso si, habria que tener muy buena organización"
+              author="Safe"
+            />
+            <Message
+              pfp={gacc}
+              message="Dale Iré haciendo lo principal primero"
+              author="
+              gacc_15"
+            />
+             <Message
               pfp={gacc}
               message="Sep, entonces yo q podría hacer xD"
               author="gacc_15"
