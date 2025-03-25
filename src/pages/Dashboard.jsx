@@ -29,15 +29,15 @@ const members = [
 
 function Dashboard() {
   return (
-    <div className="min-h-screen h-screen grid grid-cols-[70px_2fr_8fr_3fr] xl:grid-cols-[70px_2fr_8fr_2fr] 2xl:grid-cols-[70px_2fr_8fr_1fr] grid-rows-[35px_8fr_2fr_1fr] 2xl:grid-rows-[35px_8fr_2fr_0.5fr]">
+    <div className="min-h-screen h-screen grid grid-cols-[1fr] md:grid-cols-[70px_2fr_8fr_5fr] lg:grid-cols-[70px_2fr_8fr_3fr] xl:grid-cols-[70px_2fr_8fr_2fr] 2xl:grid-cols-[70px_2fr_8fr_1fr] grid-rows-[1fr_0.1fr] md:grid-rows-[35px_8fr_2fr_0.5fr] 2xl:grid-rows-[35px_8fr_2fr_0.5fr]">
       <div
-        className="bg-[#0a0a0a] row-start-1 row-end-5 flex flex-col items-center pt-2 gap-2"
+        className="hidden md:flex bg-[#0a0a0a] row-start-1 row-end-5 flex-col items-center pt-2 gap-2"
         id="servers"
       >
         <ServerCircle pfp={serverpfp} name="Autisofino" />
         <ServerCircle pfp={serverpfp} name="Autisofino" />
       </div>
-      <div className="bg-[#121212] row-start-1 row-end-4" id="friends">
+      <div className="hidden md:block bg-[#121212] row-start-1 row-end-4" id="friends">
         <div className="bg-[#0a0a0a] w-[90%] h-6 rounded flex self-center justify-self-center mt-1">
           <input
             className="w-full h-full bg-transparent outline-none text-gray-200 px-2 text-[10px]"
@@ -61,7 +61,7 @@ function Dashboard() {
         </div>
       </div>
       <div
-        className="bg-[#0f0f0f] row-start-2 row-end-4 w-full flex flex-col overflow-hidden"
+        className="bg-[#0f0f0f] row-start-1 row-end-1 md:row-start-2 md:row-end-4 w-full flex flex-col overflow-hidden"
         id="chat"
         style={{ height: "100%" }}
       >
@@ -76,7 +76,7 @@ function Dashboard() {
         </div>
       </div>
       <div
-        className="bg-[#0f0f0f] col-start-3 col-end-5 row-start-1 row-end-1 flex flex-row relative justify-start h-full w-full items-center text-gray-300 gap-2 pl-2 pr-2"
+        className="hidden md:flex bg-[#0f0f0f] col-start-3 col-end-5 row-start-1 row-end-1 flex-row relative justify-start h-full w-full items-center text-gray-300 gap-2 pl-2 pr-2"
         id="chat-info"
       >
         <div className="flex flex-row gap-2 items-center cursor-pointer">
@@ -110,7 +110,7 @@ function Dashboard() {
         </div>
       </div>
       <div
-        className="relative flex bg-[#0f0f0f] justify-center items-center"
+        className="relative flex bg-[#0f0f0f] justify-center items-center row-start-2 row-end-2 md:row-start-4 md:row-end-5"
         id="msg"
       >
         <div className="w-[90%] flex flex-row pl-3 pr-3 gap-2 items-center h-[50%] bg-[#1a1a1a] rounded-xl text-gray-300">
@@ -124,7 +124,7 @@ function Dashboard() {
         </div>
       </div>
       <div
-        className="bg-[#0f0f0f] row-start-2 row-end-5 flex flex-col justify-start w-full "
+        className="hidden md:flex bg-[#0f0f0f] row-start-2 row-end-5 flex-col justify-start w-full "
         id="users"
       >
         <div
