@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from database.client import login_user
 
-router = APIRouter(prefix="/auth",tags=["auth"])
+router = APIRouter(tags=["auth"])
 
 @router.post("/auth/login",description="Login user with credentials")
 async def login(email:str,password:str):
