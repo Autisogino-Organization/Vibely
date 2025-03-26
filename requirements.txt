@@ -10,6 +10,7 @@ click==8.1.8
 colorama==0.4.6
 deprecation==2.1.0
 dnspython==2.7.0
+dotenv==0.9.9
 email_validator==2.2.0
 fastapi==0.115.12
 fastapi-cli==0.0.7
