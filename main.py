@@ -1,9 +1,13 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from datetime import datetime, timedelta
+from routers import all_routers
 
 
 app = FastAPI()
+
+#Routers auth
+for router in all_routers:
+    app.include_router(router)
 
 app.add_middleware(
     CORSMiddleware,

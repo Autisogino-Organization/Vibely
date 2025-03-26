@@ -1,0 +1,18 @@
+# Ignorar caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+venv/
+env/
+
+
+.poetry/
+
+
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignorar archivos de logs
+*.log
