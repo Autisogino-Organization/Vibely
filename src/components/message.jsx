@@ -33,9 +33,9 @@ function Message({ pfp, author, message }) {
               title="YouTube Shorts player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
+              referrerpolicy="strict-origin-when-cross-origin"
               allowFullScreen
-              className="rounded-lg mt-2"
+              className="rounded-lg mt-2 w-fit"
             ></iframe>
           ) : (
             <a key={index} href={part} target="_blank" rel="noopener noreferrer" className="text-[#00c8ff] underline">
@@ -49,15 +49,15 @@ function Message({ pfp, author, message }) {
           return videoId ? (
             <iframe
               key={index}
-              width="300"
-              height="180"
+              width="560"
+              height="315"
               src={`https://www.youtube.com/embed/${videoId}`}
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
+              referrerpolicy="strict-origin-when-cross-origin"
               allowFullScreen
-              className="rounded-lg mt-2"
+              className="rounded-lg mt-2 w-fit"
             ></iframe>
           ) : (
             <a key={index} href={part} target="_blank" rel="noopener noreferrer" className="text-[#00c8ff] underline">
@@ -68,7 +68,7 @@ function Message({ pfp, author, message }) {
 
         const data = linkPreviews[part];
         return data ? (
-          <div key={index} className="border border-[#00c8ff] rounded-lg p-2 bg-[#121212] mt-2 w-[300px] text-gray-300">
+          <div key={index} className="border border-[#00c8ff] rounded-lg p-2 bg-[#121212] mt-2 w-[full] text-gray-300">
             <a href={part} target="_blank" rel="noopener noreferrer" className="block font-semibold text-[#00c8ff] hover:text-[#00e1ff]">
               {data.title || part}
             </a>
@@ -76,7 +76,7 @@ function Message({ pfp, author, message }) {
             {data.images?.length > 0 && <img src={data.images[0]} alt="preview" className="w-full mt-1 rounded" />}
           </div>
         ) : (
-          <a key={index} href={part} target="_blank" rel="noopener noreferrer" className="text-[#00c8ff] underline">
+          <a key={index} href={part} target="_blank" rel="noopener noreferrer" className="text-[#00c8ff] underline w-fit">
             {part}
           </a>
         );
@@ -102,9 +102,7 @@ function Message({ pfp, author, message }) {
       <span className="font-semibold col-start-2 col-end-2 row-start-1 row-end-1 text-[12px] 2xl:text-[20px]">
         {author} <span className="text-[10px] font-light text-[#a7a7a7] pl-1">hace 1 min</span>
       </span>
-      <span className="col-start-2 col-end-2 row-start-2 row-end-2 h-fit w-full text-[10px] 2xl:text-[15px] overflow-hidden">
-        {formatMessage(message)}
-      </span>
+      <span className="col-start-2 col-end-2 row-start-2 row-end-2 h-fit w-full text-[10px] 2xl:text-[15px] overflow-hidden">{formatMessage(message)}</span>
     </div>
   );
 }
